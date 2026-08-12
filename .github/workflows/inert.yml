@@ -1,0 +1,8 @@
+name: bbverify-inert-b7025d
+on: workflow_dispatch
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout only
+        uses: actions/checkout@v4
